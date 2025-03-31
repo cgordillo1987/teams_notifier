@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "teams-notifier"
+version = "0.1.0"
+description = "Librería para enviar alertas a Microsoft Teams"
+authors = ["Carlos Gordillo <cgordillo@greensqa.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
